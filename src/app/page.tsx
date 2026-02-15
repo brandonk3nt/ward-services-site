@@ -1,65 +1,133 @@
+import ActionButton from "@/components/ActionButton";
+import LineItem from "@/components/LineItem";
+import LineItemLeadership from "@/components/LineItemLeadership";
+import LineItemBold from "@/components/LineItemBold";
+import LightRays from "@/components/LightRays";
 import Image from "next/image";
 
-export default function Home() {
+export default function Page() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <div className="w-full h-full">
+      <Image src="/img/bethseda.jpeg" className="pb-4 m-auto" alt="jesus" />
+      <Image
+        src="/img/modern-logo.png"
+        className="m-auto w-3/4 md:w-1/2 xl:w-1/3"
+        alt="church-logo"
+      />
+      <div key="title-credits" className="church-font text-center p-1 py-2">
+        <p className="text-2xl">Dana Ranch Ward</p>
+        <p className="text-3xl">Sacrament Meeting</p>
+        <p className="text-2xl">February 15, 2026</p>
+      </div>
+
+      <div className="pt-4">
+        <ActionButton
+          link="https://zoom.us/j/98508434243"
+          text="Join via broadcast"
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+      </div>
+      <hr className="h-px my-8 bg-gray-400 border-0" />
+
+      <div id="services" className="mx-2">
+        <LineItemLeadership left="Presiding" right="Bishop Shumway" />
+        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
+
+        <div className="p-8 my-4 rounded bg-sky-100">
+          <div className="text-center">
+            <em className="font-semibold text-lg">Announcements</em>
+          </div>
+          <ol className="list-decimal ml-5 sticky">
+            <li className="pt-1">
+              Ward choir practice is every Sunday at 12:45 at the Edgewood
+              Building.
+            </li>
+            <li className="pt-1">
+              Missionary Meal Signup. Online signup is preferred, or see the
+              backup signup to be passed around during second hour. (
+              <a
+                href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
+                className="text-sky-600 hover:text-sky-800 underline break-words"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign up here
+              </a>
+              )
+            </li>
+            <li className="pt-1">
+              Bishop's Hang Out: Cereal Sunday. All priests and young women
+              class 16-18 are invited to the Shumway's home on the third Sunday
+              of each month from 7:00-8:30 pm.
+            </li>
+            <li className="pt-1">
+              Mission and Life Skills Prep for all Juniors and Seniors is held
+              every 2nd and 4th Sunday at 3pm in the Relief Society room.
+            </li>
+          </ol>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <LineItem
+          left="Opening Hymn"
+          middle="Scatter Sunshine"
+          right="230"
+          link="https://www.churchofjesuschrist.org/media/music/songs/scatter-sunshine?lang=eng"
+        />
+        <LineItem left="Invocation" right="By Invitation" />
+
+        <LineItemBold middle="Ward Business" />
+
+        <LineItem
+          left="Sacrament Hymn"
+          middle="How Great The Wisdom and the Love"
+          right="195"
+          link="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng"
+        />
+
+        <LineItemBold middle="Administration of the Sacrament" />
+
+        {/*
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Logan Downs" />
+        <LineItem left="Speaker" right="Eric Huffaker" />
+
+        <LineItem
+          left="Intermediate Hymn"
+          middle="We'll Bring the World His Truth"
+          right="Young Men/Young Women"
+          link="https://www.churchofjesuschrist.org/media/music/songs/we'll-bring-the-world-his-truth?lang=eng"
+        />
+
+        <LineItem left="Speaker" right="Damario Gough" />
+
+        <LineItem
+          left="Closing Hymn"
+          middle="Our Savior's Love"
+          right="113"
+          link="https://www.churchofjesuschrist.org/media/music/songs/our-saviors-love?lang=eng"
+        />
+
+        <LineItem left="Benediction" right="By Invitation" />
+      </div>
+
+      {/* TODO: Abstract into footer component */}
+      <div className="h-20 flex items-center justify-between mt-4 bg-neutral-100">
+        <div className="h-20 flex justify-center item-start">
+          <div className="bg-[#0ea5e9] p-2 h-full">
+            <Image className="h-full" src="/img/christus.png" alt="Christ" />
+          </div>
+          <span className="h-full relative" style={{ left: -1, top: 0 }}>
+            <LightRays color="#0ea5e9" />
+          </span>
         </div>
-      </main>
+        <div className="mr-6 text-stone-500 text-right font-extrabold">
+          <div>Dana Ranch Ward</div>
+          <div>Mesa Kimball Stake</div>
+        </div>
+      </div>
     </div>
   );
 }
