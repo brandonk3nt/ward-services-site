@@ -8,11 +8,19 @@ import Image from "next/image";
 export default function Page() {
   return (
     <div className="w-full h-full">
-      <Image src="/img/bethseda.jpeg" className="pb-4 m-auto" alt="jesus" />
+      <Image
+        src="/img/bethseda.jpeg"
+        className="pb-4 m-auto w-auto"
+        alt="jesus"
+        width={1200}
+        height={1200}
+      />
       <Image
         src="/img/modern-logo.png"
         className="m-auto w-3/4 md:w-1/2 xl:w-1/3"
         alt="church-logo"
+        width={600}
+        height={600}
       />
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
@@ -116,8 +124,14 @@ export default function Page() {
       {/* TODO: Abstract into footer component */}
       <div className="h-20 flex items-center justify-between mt-4 bg-neutral-100">
         <div className="h-20 flex justify-center item-start">
-          <div className="bg-[#0ea5e9] p-2 h-full">
-            <Image className="h-full" src="/img/christus.png" alt="Christ" />
+          <div className="bg-[#0ea5e9] p-2 h-full flex items-center">
+            <Image
+              className="h-full w-auto"
+              src="/img/christus.png"
+              alt="Christ"
+              width={400}
+              height={400}
+            />
           </div>
           <span className="h-full relative" style={{ left: -1, top: 0 }}>
             <LightRays color="#0ea5e9" />
