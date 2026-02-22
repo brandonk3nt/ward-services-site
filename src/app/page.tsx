@@ -20,7 +20,10 @@ export default function Page() {
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
+                        <li className="pt-1">
+              The youth fundraiser will be on March 7th from 8am-11am at our building, we will be  having a car wash. Please come out to support our youth in their summer camps.
+            </li>
+<li className="pt-1">
               The Dana Ranch Ward is responsible for cleaning the building
               beginning March 7th through the end of May. The cleaning schedule
               is included in the weekly e-mail.
