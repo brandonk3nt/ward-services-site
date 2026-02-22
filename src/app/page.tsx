@@ -48,7 +48,7 @@ export default function Page() {
               Sunday of each month from 7:00-8:30 pm.
             </li>
 
-            {/* This is only for mission prep on 2/22 */}
+            {/* This is only for mission prep on 2/22/2026 */}
             <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors will be
               at the Seaman&apos;s home today at 3pm, they will be making pizza.
