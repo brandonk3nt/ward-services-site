@@ -12,14 +12,18 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Julie Clement" />
+        <LineItemLeadership left="Organist" right="Holly Ashby" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
+            <li className="pt-1">
+              The Dana Ranch Ward is responsible for cleaning the building beginning March 7th through
+              the end of May. The cleaning schedule is included in the weekly e-mail. 
+            </li>
             <li className="pt-1">
               Ward choir practice is every Sunday at 12:45 at the Edgewood
               Building.
@@ -51,9 +55,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Scatter Sunshine"
-          right="230"
-          link="https://www.churchofjesuschrist.org/media/music/songs/scatter-sunshine?lang=eng"
+          middle="On This Day of Joy and Gladness"
+          right="64"
+          link="https://www.churchofjesuschrist.org/media/music/songs/on-this-day-of-joy-and-gladness?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -61,9 +65,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="How Great The Wisdom and the Love"
-          right="195"
-          link="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng"
+          middle="We'll Sing All Hail to Jesus' Name"
+          right="182"
+          link="https://www.churchofjesuschrist.org/media/music/songs/we'll-sing-all-hail-to-jesus-name?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -72,23 +76,22 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Logan Downs" />
-        <LineItem left="Speaker" right="Eric Huffaker" />
+        <LineItem left="Speaker" right="Rob Jarvis" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="We'll Bring the World His Truth"
-          right="Young Men/Young Women"
-          link="https://www.churchofjesuschrist.org/media/music/songs/we'll-bring-the-world-his-truth?lang=eng"
+          middle="I Am A Child of God"
+          right="301"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-am-a-child-of-god?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Damario Gough" />
+        <LineItem left="Speaker" right="Richard Merkley" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Our Savior's Love"
-          right="113"
-          link="https://www.churchofjesuschrist.org/media/music/songs/our-saviors-love?lang=eng"
+          middle="Lead Me Into Life Eternal"
+          right="45"
+          link="https://www.churchofjesuschrist.org/media/music/songs/lead-me-into-life-eternal?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
