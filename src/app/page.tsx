@@ -85,7 +85,7 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Rob Jarvis" />
+        <LineItem left="Speaker" right="Richard Merkley" />
 
         <LineItem
           left="Intermediate Hymn"
@@ -94,7 +94,7 @@ export default function Page() {
           link="https://www.churchofjesuschrist.org/media/music/songs/i-am-a-child-of-god?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Richard Merkley" />
+        <LineItem left="Speaker" right="Rob Jarvis" />
 
         <LineItem
           left="Closing Hymn"
