@@ -21,8 +21,9 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              The Dana Ranch Ward is responsible for cleaning the building beginning March 7th through
-              the end of May. The cleaning schedule is included in the weekly e-mail. 
+              The Dana Ranch Ward is responsible for cleaning the building
+              beginning March 7th through the end of May. The cleaning schedule
+              is included in the weekly e-mail.
             </li>
             <li className="pt-1">
               Ward choir practice is every Sunday at 12:45 at the Edgewood
@@ -46,10 +47,18 @@ export default function Page() {
               class 16-18 are invited to the Shumway&apos;s home on the third
               Sunday of each month from 7:00-8:30 pm.
             </li>
+
+            {/* This is only for mission prep on 2/22 */}
             <li className="pt-1">
+              Mission and Life Skills Prep for all Juniors and Seniors will be
+              at the Seaman&apos;s home today at 3pm, they will be making pizza.
+            </li>
+
+            {/* This is the usual mission prep announcement */}
+            {/* <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 3pm in the Relief Society room.
-            </li>
+            </li> */}
           </ol>
         </div>
 
