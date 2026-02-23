@@ -52,7 +52,6 @@ export default function Page() {
               class 16-18 are invited to the Shumway&apos;s home on the third
               Sunday of each month from 7:00-8:30 pm.
             </li>
-
             <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 3pm in the Relief Society room.
