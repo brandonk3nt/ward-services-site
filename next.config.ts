@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: "/ward-services-site",
-  assetPrefix: "/ward-services-site/",
+  assetPrefix: "/ward-services-site",
 };
 
 export default nextConfig;
