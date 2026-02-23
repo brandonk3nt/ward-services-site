@@ -20,10 +20,12 @@ export default function Page() {
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-                        <li className="pt-1">
-              The youth fundraiser will be on March 7th from 8am-11am at our building, we will be  having a car wash. Please come out to support our youth in their summer camps.
+            <li className="pt-1">
+              The youth fundraiser will be on March 7th from 8am-11am at our
+              building, we will be having a car wash. Please come out to support
+              our youth in their summer camps.
             </li>
-<li className="pt-1">
+            <li className="pt-1">
               The Dana Ranch Ward is responsible for cleaning the building
               beginning March 7th through the end of May. The cleaning schedule
               is included in the weekly e-mail.
@@ -51,17 +53,10 @@ export default function Page() {
               Sunday of each month from 7:00-8:30 pm.
             </li>
 
-            {/* This is only for mission prep on 2/22/2026 */}
             <li className="pt-1">
-              Mission and Life Skills Prep for all Juniors and Seniors will be
-              at the Seaman&apos;s home today at 3pm, they will be making pizza.
-            </li>
-
-            {/* This is the usual mission prep announcement */}
-            {/* <li className="pt-1">
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 3pm in the Relief Society room.
-            </li> */}
+            </li>
           </ol>
         </div>
 
