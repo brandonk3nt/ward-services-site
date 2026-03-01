@@ -12,8 +12,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Holly Ashby" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Elizabth Kasl" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -61,9 +61,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="On This Day of Joy and Gladness"
-          right="64"
-          link="https://www.churchofjesuschrist.org/media/music/songs/on-this-day-of-joy-and-gladness?lang=eng"
+          middle="The Day Dawn Is Breaking"
+          right="52"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-day-dawn-is-breaking?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -71,17 +71,16 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="We'll Sing All Hail to Jesus' Name"
-          right="182"
-          link="https://www.churchofjesuschrist.org/media/music/songs/we'll-sing-all-hail-to-jesus-name?lang=eng"
+          middle="God Our Father, Hear Us Pray"
+          right="170"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-our-father-hear-us-pray?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Richard Merkley" />
 
         <LineItem
@@ -92,12 +91,13 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Rob Jarvis" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Lead Me Into Life Eternal"
-          right="45"
-          link="https://www.churchofjesuschrist.org/media/music/songs/lead-me-into-life-eternal?lang=eng"
+          middle="Secret Prayer"
+          right="144"
+          link="https://www.churchofjesuschrist.org/media/music/songs/secret-prayer?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
