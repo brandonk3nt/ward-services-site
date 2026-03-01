@@ -11,7 +11,7 @@ export default function Page() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Conducting" right="Joe Capps" />
         <LineItemLeadership left="Organist" right="Melody Williams" />
         <LineItemLeadership left="Chorister" right="Elizabth Kasl" />
 
