@@ -31,8 +31,8 @@ export default function Page() {
               is included in the weekly e-mail.
             </li>
             <li className="pt-1">
-              Ward choir practice is every Sunday at 12:45 at the Edgewood
-              Building.
+              No ward choir practice today (Fast Sunday). Otherwise, ward choir practice is
+              every Sunday at 12:45 at the Edgewood Building.
             </li>
             <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
