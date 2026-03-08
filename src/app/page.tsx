@@ -92,7 +92,7 @@ export default function Page() {
           left="Closing Hymn"
           middle="Prayer is the Soul&apos;s Sincere Desire"
           right="145"
-          link="https://www.churchofjesuschrist.org/media/music/songs/prayer-is-the-soul's-sincere-desire?lang=eng"
+          link="https://www.churchofjesuschrist.org/media/music/songs/prayer-is-the-souls-sincere-desire?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
