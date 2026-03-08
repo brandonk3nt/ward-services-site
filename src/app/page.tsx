@@ -30,7 +30,8 @@ export default function Page() {
             </li>
             <li className="pt-1">
               Missionary Meal Signup. The Dana Ranch Ward also has the opportunity to provide meals
-              for the Spanish Missionaries from March 15-21 (separate signup at same link 
+              for the Spanish Missionaries from March 15-21, separate signup at same link.
+              (
               <a
                 href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
                 className="text-sky-600 hover:text-sky-800 underline break-words"
