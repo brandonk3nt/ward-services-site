@@ -12,8 +12,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Joe Capps" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Elizabth Kasl" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -21,18 +21,12 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              The youth fundraiser will be on March 7th from 8am-11am at our
-              building, we will be having a car wash. Please come out to support
-              our youth in their summer camps.
-            </li>
-            <li className="pt-1">
               The Dana Ranch Ward is responsible for cleaning the building
               beginning March 7th through the end of May. The cleaning schedule
               is included in the weekly e-mail.
             </li>
             <li className="pt-1">
-              No ward choir practice today (Fast Sunday). Otherwise, ward choir practice is
-              every Sunday at 12:45 at the Edgewood Building.
+              Ward Choir Practice is at 12:45 at the Edgewood Building.
             </li>
             <li className="pt-1">
               Missionary Meal Signup. Online signup is preferred, or see the
@@ -61,9 +55,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="The Day Dawn Is Breaking"
-          right="52"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-day-dawn-is-breaking?lang=eng"
+          middle="Now Let Us Rejoice"
+          right="3"
+          link="https://www.churchofjesuschrist.org/media/music/songs/now-let-us-rejoice?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -71,33 +65,34 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="God Our Father, Hear Us Pray"
-          right="170"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-our-father-hear-us-pray?lang=eng"
+          middle="Upon the Cross of Calvary"
+          right="184"
+          link="https://www.churchofjesuschrist.org/media/music/songs/upon-the-cross-of-calvary?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Richard Merkley" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Joseph Williams" />
+        <LineItem left="Speaker" right="Sandi Anderson" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="I Am A Child of God"
-          right="301"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-am-a-child-of-god?lang=eng"
+          middle="Have I Done Any Good?"
+          right="223"
+          link="https://www.churchofjesuschrist.org/media/music/songs/have-i-done-any-good?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Rob Jarvis" />
-        */}
+        <LineItem left="Speaker" right="Kade Thorley" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Secret Prayer"
-          right="144"
-          link="https://www.churchofjesuschrist.org/media/music/songs/secret-prayer?lang=eng"
+          middle="Prayer is the Soul&apos;s Sincere Desire"
+          right="145"
+          link="https://www.churchofjesuschrist.org/media/music/songs/prayer-is-the-soul's-sincere-desire?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
