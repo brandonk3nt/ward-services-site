@@ -28,6 +28,12 @@ export default function Page() {
             <li className="pt-1">
               Ward Choir Practice is at 12:45 at the Edgewood Building.
             </li>
+<li className="pt-1">
+              Relief Society Easter Activity on March 10 at 6:30 PM at the Jarman's home.
+            </li>
+<li className="pt-1">
+              Easter Egg Hunt and activity on March 28 at 8 AM at Countryside Park.
+            </li>
             <li className="pt-1">
               Missionary Meal Signup. The Dana Ranch Ward also has the opportunity to provide meals
               for the Spanish Missionaries from March 15-21, separate signup at same link.
