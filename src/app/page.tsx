@@ -12,8 +12,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Joe Capps" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -26,12 +26,12 @@ export default function Page() {
               is included in the weekly e-mail.
             </li>
             <li className="pt-1">
+              Ollie Overstreet's baptism is at 4 PM today in the Primary Room.
+            </li>
+            <li className="pt-1">
               Ward Choir Practice is at 12:45 at the Edgewood Building.
             </li>
-<li className="pt-1">
-              Relief Society Easter Activity on March 10 at 6:30 PM at the Jarman's home.
-            </li>
-<li className="pt-1">
+            <li className="pt-1">
               Easter Egg Hunt and activity on March 28 at 8 AM at Countryside Park.
             </li>
             <li className="pt-1">
@@ -62,9 +62,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Now Let Us Rejoice"
-          right="3"
-          link="https://www.churchofjesuschrist.org/media/music/songs/now-let-us-rejoice?lang=eng"
+          middle="All Creatures of Our God and King"
+          right="62"
+          link="https://www.churchofjesuschrist.org/media/music/songs/all-creatures-of-our-god-and-king?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -72,9 +72,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Upon the Cross of Calvary"
-          right="184"
-          link="https://www.churchofjesuschrist.org/media/music/songs/upon-the-cross-of-calvary?lang=eng"
+          middle="In Humility, Our Savior"
+          right="172"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -83,23 +83,21 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Joseph Williams" />
-        <LineItem left="Speaker" right="Sandi Anderson" />
+        <LineItem left="Speaker" right="Paula Merkley" />
 
         <LineItem
-          left="Intermediate Hymn"
-          middle="Have I Done Any Good?"
-          right="223"
-          link="https://www.churchofjesuschrist.org/media/music/songs/have-i-done-any-good?lang=eng"
+          left="Special Musical Number"
+          middle="I Will Walk with Jesus"
+          right="Nova Bellessa"
         />
 
-        <LineItem left="Speaker" right="Kade Thorley" />
+        <LineItem left="Speaker" right="Bryan Stradling" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Prayer is the Soul&apos;s Sincere Desire"
-          right="145"
-          link="https://www.churchofjesuschrist.org/media/music/songs/prayer-is-the-souls-sincere-desire?lang=eng"
+          middle="Let The Holy Spirit Guide"
+          right="143"
+          link="https://www.churchofjesuschrist.org/media/music/songs/let-the-holy-spirit-guide?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
