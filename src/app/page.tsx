@@ -7,7 +7,7 @@ import ServicesHeader from "@/components/ServicesHeader";
 export default function Page() {
   return (
     <div className="w-full h-full">
-      <ServicesHeader heroImage="/img/bible_films_christ_walking_disciples.jpeg" />
+      <ServicesHeader heroImage="/img/palm-sunday.jpeg" />
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
@@ -32,12 +32,13 @@ export default function Page() {
               Ward Choir Practice is at 12:45 at the Edgewood Building.
             </li>
             <li className="pt-1">
-              Easter Egg Hunt and activity on March 28 at 8 AM at Countryside Park.
+              Easter Egg Hunt and activity on March 28 at 8 AM at Countryside
+              Park.
             </li>
             <li className="pt-1">
-              Missionary Meal Signup. The Dana Ranch Ward also has the opportunity to provide meals
-              for the Spanish Missionaries from March 15-21, separate signup at same link.
-              (
+              Missionary Meal Signup. The Dana Ranch Ward also has the
+              opportunity to provide meals for the Spanish Missionaries from
+              March 15-21, separate signup at same link. (
               <a
                 href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
                 className="text-sky-600 hover:text-sky-800 underline break-words"
