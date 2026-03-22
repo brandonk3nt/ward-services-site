@@ -12,8 +12,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Joe Capps" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Julie Clement" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -26,9 +26,6 @@ export default function Page() {
               is included in the weekly e-mail.
             </li>
             <li className="pt-1">
-              Ollie Overstreet's baptism is at 4 PM today in the Primary Room.
-            </li>
-            <li className="pt-1">
               Ward Choir Practice is at 12:45 at the Edgewood Building.
             </li>
             <li className="pt-1">
@@ -36,9 +33,7 @@ export default function Page() {
               Park.
             </li>
             <li className="pt-1">
-              Missionary Meal Signup. The Dana Ranch Ward also has the
-              opportunity to provide meals for the Spanish Missionaries from
-              March 15-21, separate signup at same link. (
+              Missionary Meal Signup. (
               <a
                 href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
                 className="text-sky-600 hover:text-sky-800 underline break-words"
@@ -63,9 +58,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="All Creatures of Our God and King"
-          right="62"
-          link="https://www.churchofjesuschrist.org/media/music/songs/all-creatures-of-our-god-and-king?lang=eng"
+          middle="Rejoice The Lord Is King"
+          right="66"
+          link="https://www.churchofjesuschrist.org/media/music/songs/rejoice-the-lord-is-king?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -73,9 +68,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Humility, Our Savior"
-          right="172"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
+          middle="While of These Emblems We Partake"
+          right="174"
+          link="https://www.churchofjesuschrist.org/media/music/songs/while-of-these-emblems-we-partake?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -84,21 +79,22 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Paula Merkley" />
+        <LineItem left="Speaker" right="Tegan Grenko" />
+        <LineItem left="Speaker" right="Sasha Anderson" />
 
         <LineItem
           left="Special Musical Number"
-          middle="I Will Walk with Jesus"
-          right="Nova Bellessa"
+          middle="I Heard Him Come"
+          right="Elder Hoover, Holly Ashby"
         />
 
-        <LineItem left="Speaker" right="Bryan Stradling" />
+        <LineItem left="Speaker" right="Tyler Cornia" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Let The Holy Spirit Guide"
-          right="143"
-          link="https://www.churchofjesuschrist.org/media/music/songs/let-the-holy-spirit-guide?lang=eng"
+          middle="As I Search the Holy Scriptures"
+          right="277"
+          link="https://www.churchofjesuschrist.org/media/music/songs/as-i-search-the-holy-scriptures?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
