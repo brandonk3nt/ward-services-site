@@ -12,8 +12,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Joe Capps" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Holly Ashby" />
+        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -21,16 +21,16 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              The Dana Ranch Ward is responsible for cleaning the building
-              beginning March 7th through the end of May. The cleaning schedule
-              is included in the weekly e-mail.
-            </li>
-            <li className="pt-1">
               Ward Choir Practice is at 12:45 at the Edgewood Building.
             </li>
             <li className="pt-1">
-              Easter Egg Hunt and activity on March 28 at 8 AM at Countryside
-              Park.
+              There will be no second hour today, enjoy the time with your families to celebrate
+              Palm Sunday and the start of the Holy Week.
+            </li>
+            <li className="pt-1">
+              The Dana Ranch Ward is responsible for cleaning the building
+              beginning March 7th through the end of May. The cleaning schedule
+              is included in the weekly e-mail.
             </li>
             <li className="pt-1">
               Missionary Meal Signup. (
@@ -58,9 +58,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Rejoice The Lord Is King"
-          right="66"
-          link="https://www.churchofjesuschrist.org/media/music/songs/rejoice-the-lord-is-king?lang=eng"
+          middle="Christ the Lord is Risen Today"
+          right="200"
+          link="https://www.churchofjesuschrist.org/media/music/songs/christ-the-lord-is-risen-today?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -68,9 +68,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="While of These Emblems We Partake"
-          right="174"
-          link="https://www.churchofjesuschrist.org/media/music/songs/while-of-these-emblems-we-partake?lang=eng"
+          middle="Tis Sweet to Sing the Matchless Love"
+          right="176"
+          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -79,22 +79,27 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Tegan Grenko" />
-        <LineItem left="Speaker" right="Sasha Anderson" />
+        <LineItem
+          left="Special Musical Number"
+          middle="Gethsemane"
+          right="Primary, Ward Choir"
+        />
+
+        <LineItem left="Speaker" right="Chris Cooley" />
 
         <LineItem
           left="Special Musical Number"
-          middle="I Heard Him Come"
-          right="Elder Hoover, Holly Ashby"
+          middle="There is a Green Hill Far Away, This is the Christ"
+          right="Ward Choir"
         />
 
-        <LineItem left="Speaker" right="Tyler Cornia" />
+        <LineItem left="Speaker" right="Shaeli Kersee" />
 
         <LineItem
           left="Closing Hymn"
-          middle="As I Search the Holy Scriptures"
-          right="277"
-          link="https://www.churchofjesuschrist.org/media/music/songs/as-i-search-the-holy-scriptures?lang=eng"
+          middle="He is Risen!"
+          right="199"
+          link="https://www.churchofjesuschrist.org/media/music/songs/he-is-risen?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
