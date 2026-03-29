@@ -21,7 +21,7 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Ward Choir Practice is at 12:45 at the Edgewood Building.
+              Ward Choir Practice today is at 9:40 in the Primary room at the Stake Center.
             </li>
             <li className="pt-1">
               There will be no second hour today, enjoy the time with your families to celebrate
