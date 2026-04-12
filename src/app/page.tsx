@@ -11,8 +11,8 @@ export default function Page() {
 
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Joe Capps" />
-        <LineItemLeadership left="Organist" right="Holly Ashby" />
+        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
         <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
@@ -20,13 +20,6 @@ export default function Page() {
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              Ward Choir Practice today is at 9:40 in the Primary room at the Stake Center.
-            </li>
-            <li className="pt-1">
-              There will be no second hour today, enjoy the time with your families to celebrate
-              Palm Sunday and the start of the Holy Week.
-            </li>
             <li className="pt-1">
               The Dana Ranch Ward is responsible for cleaning the building
               beginning March 7th through the end of May. The cleaning schedule
@@ -58,9 +51,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Christ the Lord is Risen Today"
-          right="200"
-          link="https://www.churchofjesuschrist.org/media/music/songs/christ-the-lord-is-risen-today?lang=eng"
+          middle="The Spirit of God"
+          right="2"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-spirit-of-god?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -68,17 +61,16 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Tis Sweet to Sing the Matchless Love"
-          right="176"
-          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love?lang=eng"
+          middle="O God, The Eternal Father"
+          right="175"
+          link="https://www.churchofjesuschrist.org/media/music/songs/o-god-the-eternal-father?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem
           left="Special Musical Number"
           middle="Gethsemane"
@@ -94,12 +86,13 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Shaeli Kersee" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="He is Risen!"
-          right="199"
-          link="https://www.churchofjesuschrist.org/media/music/songs/he-is-risen?lang=eng"
+          middle="I Know That My Redeemer Lives"
+          right="136"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-know-that-my-redeemer-lives?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
