@@ -7,8 +7,7 @@ import ServicesHeader from "@/components/ServicesHeader";
 export default function Page() {
   return (
     <div className="w-full h-full">
-      <ServicesHeader heroImage="/img/palm-sunday.jpeg" />
-
+      <ServicesHeader heroImage="/img/christ-resurrected.jpg" />
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
@@ -97,7 +96,6 @@ export default function Page() {
 
         <LineItem left="Benediction" right="By Invitation" />
       </div>
-
       <ServicesFooter />
     </div>
   );
