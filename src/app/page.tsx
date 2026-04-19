@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -50,9 +50,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="The Spirit of God"
-          right="2"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-spirit-of-god?lang=eng"
+          middle="Reedemer of Israel"
+          right="6"
+          link="https://www.churchofjesuschrist.org/media/music/songs/reedemer-of-israel?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -60,38 +60,33 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="O God, The Eternal Father"
-          right="175"
-          link="https://www.churchofjesuschrist.org/media/music/songs/o-god-the-eternal-father?lang=eng"
+          middle="Again We Meet around the Board"
+          right="186"
+          link="https://www.churchofjesuschrist.org/media/music/songs/again-we-meet-around-the-board?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem
-          left="Special Musical Number"
-          middle="Gethsemane"
-          right="Primary, Ward Choir"
-        />
-
-        <LineItem left="Speaker" right="Chris Cooley" />
-
-        <LineItem
-          left="Special Musical Number"
-          middle="There is a Green Hill Far Away, This is the Christ"
-          right="Ward Choir"
-        />
-
-        <LineItem left="Speaker" right="Shaeli Kersee" />
+        <LineItemBold middle="Bearing of Testimonies" />
         */}
+
+        <LineItem left="Speaker" right="Phoenix Bellessa" />
+        <LineItem left="Speaker" right="Jane Beagle" />
+
+        <LineItem
+          left="Special Musical Number"
+          middle="Were You There?"
+          right="Rockwell Bellessa, Holly Ashby"
+        />
+
+        <LineItem left="Speaker" right="Earl Liddle" />
 
         <LineItem
           left="Closing Hymn"
-          middle="I Know That My Redeemer Lives"
-          right="136"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-know-that-my-redeemer-lives?lang=eng"
+          middle="I Believe in Christ"
+          right="134"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-believe-in-christ?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
