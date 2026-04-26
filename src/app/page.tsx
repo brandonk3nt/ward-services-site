@@ -11,7 +11,7 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
         <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
@@ -50,9 +50,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Reedemer of Israel"
-          right="6"
-          link="https://www.churchofjesuschrist.org/media/music/songs/reedemer-of-israel?lang=eng"
+          middle="Hail the Day that Sees Him Rise"
+          right="1201"
+          link="https://www.churchofjesuschrist.org/media/music/songs/hail-the-day-that-sees-him-rise?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -60,9 +60,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Again We Meet around the Board"
-          right="186"
-          link="https://www.churchofjesuschrist.org/media/music/songs/again-we-meet-around-the-board?lang=eng"
+          middle="O Lord of Hosts"
+          right="178"
+          link="https://www.churchofjesuschrist.org/media/music/songs/o-lord-of-hosts?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -71,22 +71,23 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Phoenix Bellessa" />
-        <LineItem left="Speaker" right="Jane Beagle" />
+        <LineItem left="Speaker" right="Wyatt Downs" />
+        <LineItem left="Speaker" right="Kinsey Wallace" />
 
         <LineItem
-          left="Special Musical Number"
-          middle="Were You There?"
-          right="Rockwell Bellessa, Holly Ashby"
+          left="Intermediate Hymn"
+          middle="Let Zion in Her Beauty Rise"
+          right="41"
+          link="https://www.churchofjesuschrist.org/media/music/songs/let-zion-in-her-beauty-rise?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Earl Liddle" />
+        <LineItem left="Speaker" right="Mary Liddle" />
 
         <LineItem
           left="Closing Hymn"
-          middle="I Believe in Christ"
-          right="134"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-believe-in-christ?lang=eng"
+          middle="I Know my Father Lives"
+          right="302"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-know-my-father-lives?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />

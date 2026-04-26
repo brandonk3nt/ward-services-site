@@ -27,7 +27,7 @@ export default function ServicesHeader({
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">April 19, 2026</p>
+        <p className="text-2xl">April 26, 2026</p>
       </div>
 
       <div className="pt-4">
