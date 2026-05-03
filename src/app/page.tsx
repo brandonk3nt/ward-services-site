@@ -10,9 +10,9 @@ export default function Page() {
       <ServicesHeader heroImage="/img/christ-resurrected.jpg" />
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -50,9 +50,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Hail the Day that Sees Him Rise"
-          right="1201"
-          link="https://www.churchofjesuschrist.org/media/music/songs/hail-the-day-that-sees-him-rise?lang=eng"
+          middle="Sweet Hour of Prayer"
+          right="142"
+          link="https://www.churchofjesuschrist.org/media/music/songs/sweet-hour-of-prayer?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -60,17 +60,16 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="O Lord of Hosts"
-          right="178"
-          link="https://www.churchofjesuschrist.org/media/music/songs/o-lord-of-hosts?lang=eng"
+          middle="Father in Heaven, We Do Believe"
+          right="180"
+          link="https://www.churchofjesuschrist.org/media/music/songs/father-in-heaven-we-do-believe?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Wyatt Downs" />
         <LineItem left="Speaker" right="Kinsey Wallace" />
 
@@ -82,12 +81,13 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Mary Liddle" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="I Know my Father Lives"
-          right="302"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-know-my-father-lives?lang=eng"
+          middle="I Need Thee Every Hour"
+          right="98"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-need-thee-every-hour?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
