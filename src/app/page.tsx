@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
+        <LineItemLeadership left="Organist" right="Joe Capps" />
+        <LineItemLeadership left="Chorister" right="Steve Ray" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -50,9 +50,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Sweet Hour of Prayer"
-          right="142"
-          link="https://www.churchofjesuschrist.org/media/music/songs/sweet-hour-of-prayer?lang=eng"
+          middle="Home Can Be a Heaven on Earth"
+          right="298"
+          link="https://www.churchofjesuschrist.org/media/music/songs/home-can-be-a-heaven-on-earth?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -60,34 +60,33 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Father in Heaven, We Do Believe"
-          right="180"
-          link="https://www.churchofjesuschrist.org/media/music/songs/father-in-heaven-we-do-believe?lang=eng"
+          middle="Jesus of Nazareth, Savior and King"
+          right="181"
+          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-of-nazareth-savior-and-king?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Wyatt Downs" />
-        <LineItem left="Speaker" right="Kinsey Wallace" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Logan Kent" />
+        <LineItem left="Speaker" right="Hope Nicoll" />
 
         <LineItem
-          left="Intermediate Hymn"
-          middle="Let Zion in Her Beauty Rise"
-          right="41"
-          link="https://www.churchofjesuschrist.org/media/music/songs/let-zion-in-her-beauty-rise?lang=eng"
+          left="Special Musical Number"
+          middle="I Often go Walking"
+          right="Primary"
         />
 
-        <LineItem left="Speaker" right="Mary Liddle" />
-        */}
+        <LineItem left="Speaker" right="Mike Wilhelm" />
 
         <LineItem
           left="Closing Hymn"
-          middle="I Need Thee Every Hour"
-          right="98"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-need-thee-every-hour?lang=eng"
+          middle="Teach Me to Walk in the Light"
+          right="304"
+          link="https://www.churchofjesuschrist.org/media/music/songs/teach-me-to-walk-in-the-light?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
