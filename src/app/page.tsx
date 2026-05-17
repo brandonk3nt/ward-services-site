@@ -71,7 +71,7 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Sabrina Hulse" />
+        <LineItem left="Speaker" right="Matt Hulse" />
 
         <LineItem
           left="Intermediate Hymn"
@@ -80,7 +80,7 @@ export default function Page() {
           link="https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Matt Hulse" />
+        <LineItem left="Speaker" right="Sabrina Hulse" />
 
         <LineItem
           left="Closing Hymn"
