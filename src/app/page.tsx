@@ -62,7 +62,7 @@ export default function Page() {
           left="Sacrament Hymn"
           middle="We'll Sing All Hail to Jesus' Name"
           right="182"
-          link="https://www.churchofjesuschrist.org/media/music/songs/we'll-sing-all-hail-to-jesus-name?lang=eng"
+          link="https://www.churchofjesuschrist.org/media/music/songs/well-sing-all-hail-to-jesus-name?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -81,7 +81,6 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Matt Hulse" />
-        <LineItem left="Speaker" right="High Council" />
 
         <LineItem
           left="Closing Hymn"
