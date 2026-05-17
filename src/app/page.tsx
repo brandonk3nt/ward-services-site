@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Joe Capps" />
-        <LineItemLeadership left="Chorister" right="Steve Ray" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -50,9 +50,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Home Can Be a Heaven on Earth"
-          right="298"
-          link="https://www.churchofjesuschrist.org/media/music/songs/home-can-be-a-heaven-on-earth?lang=eng"
+          middle="The Iron Rod"
+          right="274"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-iron-rod?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -60,9 +60,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Jesus of Nazareth, Savior and King"
-          right="181"
-          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-of-nazareth-savior-and-king?lang=eng"
+          middle="We'll Sing All Hail to Jesus' Name"
+          right="182"
+          link="https://www.churchofjesuschrist.org/media/music/songs/we'll-sing-all-hail-to-jesus-name?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -71,22 +71,23 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Logan Kent" />
-        <LineItem left="Speaker" right="Hope Nicoll" />
+        <LineItem left="Speaker" right="Sabrina Hulse" />
 
         <LineItem
-          left="Special Musical Number"
-          middle="I Often go Walking"
-          right="Primary"
+          left="Intermediate Hymn"
+          middle="How Firm a Foundation"
+          right="85"
+          link="https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Mike Wilhelm" />
+        <LineItem left="Speaker" right="Matt Hulse" />
+        <LineItem left="Speaker" right="High Council" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Teach Me to Walk in the Light"
-          right="304"
-          link="https://www.churchofjesuschrist.org/media/music/songs/teach-me-to-walk-in-the-light?lang=eng"
+          middle="Nearer, My God, to Thee"
+          right="100"
+          link="https://www.churchofjesuschrist.org/media/music/songs/nearer-my-god-to-thee?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
