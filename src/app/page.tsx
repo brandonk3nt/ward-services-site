@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -50,9 +50,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="The Iron Rod"
-          right="274"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-iron-rod?lang=eng"
+          middle="Did You Think to Pray?"
+          right="140"
+          link="https://www.churchofjesuschrist.org/media/music/songs/did-you-think-to-pray?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -60,9 +60,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="We'll Sing All Hail to Jesus' Name"
-          right="182"
-          link="https://www.churchofjesuschrist.org/media/music/songs/well-sing-all-hail-to-jesus-name?lang=eng"
+          middle="In Remembrance of Thy Suffering"
+          right="183"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-remembrance-of-thy-suffering?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -71,22 +71,23 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Matt Hulse" />
+        <LineItem left="Speaker" right="Claira Speakman" />
+        <LineItem left="Speaker" right="Elder Martineau" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="How Firm a Foundation"
-          right="85"
-          link="https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation?lang=eng"
+          middle="Let Us All Press On"
+          right="243"
+          link="https://www.churchofjesuschrist.org/media/music/songs/let-us-all-press-on?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Sabrina Hulse" />
+        <LineItem left="Speaker" right="Elder Smart" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Nearer, My God, to Thee"
-          right="100"
-          link="https://www.churchofjesuschrist.org/media/music/songs/nearer-my-god-to-thee?lang=eng"
+          middle="Jesus the Very Thought of Thee"
+          right="141"
+          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-the-very-thought-of-thee?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
