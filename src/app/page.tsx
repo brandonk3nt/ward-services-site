@@ -20,6 +20,9 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
+              Stake Choir Practice is Thursday, June 4th from 7-8 pm at the Stake Center in preparation for Stake Conference next week.
+            </li>
+            <li className="pt-1">
               Missionary Meal Signup. (
               <a
                 href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
