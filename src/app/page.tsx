@@ -12,18 +12,13 @@ export default function Page() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
         <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Julie Clement" />
+        <LineItemLeadership left="Chorister" right="Elizabth Kasl" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              The Dana Ranch Ward is responsible for cleaning the building
-              beginning March 7th through the end of May. The cleaning schedule
-              is included in the weekly e-mail.
-            </li>
             <li className="pt-1">
               Missionary Meal Signup. (
               <a
@@ -50,9 +45,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Did You Think to Pray?"
-          right="140"
-          link="https://www.churchofjesuschrist.org/media/music/songs/did-you-think-to-pray?lang=eng"
+          middle="The Light Divine"
+          right="305"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-light-divine?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -60,9 +55,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Remembrance of Thy Suffering"
-          right="183"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-remembrance-of-thy-suffering?lang=eng"
+          middle="Behold the Great Redeemer Died"
+          right="191"
+          link="https://www.churchofjesuschrist.org/media/music/songs/behind-the-great-redeemer-died?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -71,23 +66,23 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Claira Speakman" />
-        <LineItem left="Speaker" right="Elder Martineau" />
+        <LineItem left="Speaker" right="Violet Capps" />
+        <LineItem left="Speaker" right="Hunter Reynolds" />
+        <LineItem left="Speaker" right="Quin Shumway" />
 
         <LineItem
-          left="Intermediate Hymn"
-          middle="Let Us All Press On"
-          right="243"
-          link="https://www.churchofjesuschrist.org/media/music/songs/let-us-all-press-on?lang=eng"
+          left="Special Musical Number"
+          middle="Faith"
+          right="Piano Duet, Anne & Jane Flaherty"
         />
 
-        <LineItem left="Speaker" right="Elder Smart" />
+        <LineItem left="Speaker" right="Sydney Kent" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Jesus the Very Thought of Thee"
-          right="141"
-          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-the-very-thought-of-thee?lang=eng"
+          middle="Onward, Christian Soldiers"
+          right="246"
+          link="https://www.churchofjesuschrist.org/media/music/songs/onward-christian-soldiers?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
