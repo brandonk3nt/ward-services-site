@@ -10,9 +10,9 @@ export default function Page() {
       <ServicesHeader heroImage="/img/bethseda.jpeg" />
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Elizabth Kasl" />
+        <LineItemLeadership left="Conducting" right="Joe Capps" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Stake Choir Practice is Thursday, June 4th from 7-8 pm at the Stake Center in preparation for Stake Conference next week.
+              Mission Plan, June Operative Practice - "Fast and pray for missionaries worldwide, with a special focus on Elder Smart, Elder Martineau, and Elder Larsen who are serving in our ward, and for ourselves as member missionaries."
             </li>
             <li className="pt-1">
               Missionary Meal Signup. (
@@ -48,9 +48,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="The Light Divine"
-          right="305"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-light-divine?lang=eng"
+          middle="You Can Make the Pathway Bright"
+          right="228"
+          link="https://www.churchofjesuschrist.org/media/music/songs/you-can-make-the-pathway-bright?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -58,17 +58,16 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Behold the Great Redeemer Die"
-          right="191"
-          link="https://www.churchofjesuschrist.org/media/music/songs/behold-the-great-redeemer-die?lang=eng"
+          middle="Upon the Cross of Calvary"
+          right="184"
+          link="https://www.churchofjesuschrist.org/media/music/songs/upon-the-cross-of-calvary?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Violet Capps" />
         <LineItem left="Speaker" right="Hunter Reynolds" />
         <LineItem left="Speaker" right="Quin Shumway" />
@@ -80,12 +79,13 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Sydney Kent" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Onward, Christian Soldiers"
-          right="246"
-          link="https://www.churchofjesuschrist.org/media/music/songs/onward-christian-soldiers?lang=eng"
+          middle="Lead Kindly Light"
+          right="97"
+          link="https://www.churchofjesuschrist.org/media/music/songs/lead-kindly-light?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
