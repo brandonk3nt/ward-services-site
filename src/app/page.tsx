@@ -48,9 +48,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="You Can Make the Pathway Bright"
-          right="228"
-          link="https://www.churchofjesuschrist.org/media/music/songs/you-can-make-the-pathway-bright?lang=eng"
+          middle="Come Thou Fount of Every Blessing"
+          right="1001"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-thou-fount-of-every-blessing?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -58,34 +58,33 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Upon the Cross of Calvary"
-          right="184"
-          link="https://www.churchofjesuschrist.org/media/music/songs/upon-the-cross-of-calvary?lang=eng"
+          middle="I Stand All Amazed"
+          right="193"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-stand-all-amazed?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Violet Capps" />
-        <LineItem left="Speaker" right="Hunter Reynolds" />
-        <LineItem left="Speaker" right="Quin Shumway" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Caleb Murray" />
+        <LineItem left="Speaker" right="Emily Lewis" />
 
         <LineItem
           left="Special Musical Number"
-          middle="Faith"
-          right="Piano Duet, Anne & Jane Flaherty"
+          middle="Families Can Be Together Forever"
+          right="Young Women"
         />
 
-        <LineItem left="Speaker" right="Sydney Kent" />
-        */}
+        <LineItem left="Speaker" right="Helga Goff" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Lead Kindly Light"
-          right="97"
-          link="https://www.churchofjesuschrist.org/media/music/songs/lead-kindly-light?lang=eng"
+          middle="I'll Go Where You Want Me to Go"
+          right="270"
+          link="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
