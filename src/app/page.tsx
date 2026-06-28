@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Joe Capps" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -48,9 +48,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come Thou Fount of Every Blessing"
-          right="1001"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-thou-fount-of-every-blessing?lang=eng"
+          middle="Israel Israel God is Calling"
+          right="7"
+          link="https://www.churchofjesuschrist.org/media/music/songs/israel-israel-god-is-calling?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -58,9 +58,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="I Stand All Amazed"
-          right="193"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-stand-all-amazed?lang=eng"
+          middle="God Loved Us, So He Sent His Son"
+          right="187"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-loved-us-so-he-sent-his-son?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -69,22 +69,23 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Caleb Murray" />
-        <LineItem left="Speaker" right="Emily Lewis" />
+        <LineItem left="Speaker" right="Kristen Reynolds" />
+        <LineItem left="Speaker" right="Thomas Ballantyne" />
 
         <LineItem
           left="Special Musical Number"
-          middle="Families Can Be Together Forever"
-          right="Young Women"
+          middle="How Firm a Foundation"
+          right="85"
+          link="https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Helga Goff" />
+        <LineItem left="Speaker" right="Andrew Jarman" />
 
         <LineItem
           left="Closing Hymn"
-          middle="I'll Go Where You Want Me to Go"
-          right="270"
-          link="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng"
+          middle="America the Beautiful"
+          right="338"
+          link="https://www.churchofjesuschrist.org/media/music/songs/america-the-beautiful?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
