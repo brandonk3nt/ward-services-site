@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Mission Plan, June Operative Practice - "Fast and pray for missionaries worldwide, with a special focus on Elder Smart, Elder Martineau, and Elder Larsen who are serving in our ward, and for ourselves as member missionaries."
+              Mission Plan, June Operative Practice - "Fast and pray for missionaries worldwide, with a special focus on Elder Smart and Elder Harper who are serving in our ward, and for ourselves as member missionaries."
             </li>
             <li className="pt-1">
               Missionary Meal Signup. (
