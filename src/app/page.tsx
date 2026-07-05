@@ -12,7 +12,7 @@ export default function Page() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Joe Capps" />
         <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Julie Clement" />
+        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -48,9 +48,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Israel Israel God is Calling"
-          right="7"
-          link="https://www.churchofjesuschrist.org/media/music/songs/israel-israel-god-is-calling?lang=eng"
+          middle="My Country, 'Tis of Thee"
+          right="339"
+          link="https://www.churchofjesuschrist.org/media/music/songs/my-country-tis-of-thee?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -58,17 +58,16 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="God Loved Us, So He Sent His Son"
-          right="187"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-loved-us-so-he-sent-his-son?lang=eng"
+          middle="In Memory of the Crucified"
+          right="190"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-memory-of-the-crucified?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Kristen Reynolds" />
         <LineItem left="Speaker" right="Thomas Ballantyne" />
 
@@ -80,12 +79,13 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Andrew Jarman" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="America the Beautiful"
-          right="338"
-          link="https://www.churchofjesuschrist.org/media/music/songs/america-the-beautiful?lang=eng"
+          middle="Behold! A Royal Army"
+          right="251"
+          link="https://www.churchofjesuschrist.org/media/music/songs/behold-a-royal-army?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
