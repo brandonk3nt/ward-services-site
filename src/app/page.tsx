@@ -10,9 +10,9 @@ export default function Page() {
       <ServicesHeader heroImage="/img/bethseda.jpeg" />
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Joe Capps" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
+        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -48,9 +48,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="My Country, 'Tis of Thee"
-          right="339"
-          link="https://www.churchofjesuschrist.org/media/music/songs/my-country-tis-of-thee?lang=eng"
+          middle="High on the Mountain Top"
+          right="5"
+          link="https://www.churchofjesuschrist.org/media/music/songs/high-on-the-mountain-top?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -58,34 +58,34 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Memory of the Crucified"
-          right="190"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-memory-of-the-crucified?lang=eng"
+          middle="Reverently and Meekly Now"
+          right="185"
+          link="https://www.churchofjesuschrist.org/media/music/songs/reverently-and-meekly-now?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Kristen Reynolds" />
-        <LineItem left="Speaker" right="Thomas Ballantyne" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Mason Gray" />
+        <LineItem left="Speaker" right="Kemp Spencer" />
 
         <LineItem
           left="Special Musical Number"
-          middle="How Firm a Foundation"
-          right="85"
-          link="https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation?lang=eng"
+          middle="Go Forth With Faith"
+          right="263"
+          link="https://www.churchofjesuschrist.org/media/music/songs/go-forth-with-faith?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Andrew Jarman" />
-        */}
+        <LineItem left="Speaker" right="Kim Huffaker" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Behold! A Royal Army"
-          right="251"
-          link="https://www.churchofjesuschrist.org/media/music/songs/behold-a-royal-army?lang=eng"
+          middle="It Is Well With My Soul"
+          right="1003"
+          link="https://www.churchofjesuschrist.org/media/music/songs/it-is-well-with-my-soul?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
