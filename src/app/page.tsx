@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Mission Plan, June Operative Practice - "Fast and pray for missionaries worldwide, with a special focus on Elder Smart and Elder Harper who are serving in our ward, and for ourselves as member missionaries."
+              Mission Plan, July Operative Practice - "Fast and pray for missionaries worldwide, with a special focus on Elder Smart and Elder Harper who are serving in our ward, and for ourselves as member missionaries."
             </li>
             <li className="pt-1">
               Missionary Meal Signup. (
@@ -48,9 +48,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="High on the Mountain Top"
-          right="5"
-          link="https://www.churchofjesuschrist.org/media/music/songs/high-on-the-mountain-top?lang=eng"
+          middle="Hark All Ye Nations"
+          right="264"
+          link="https://www.churchofjesuschrist.org/media/music/songs/hark-all-ye-nations?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -58,9 +58,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Reverently and Meekly Now"
-          right="185"
-          link="https://www.churchofjesuschrist.org/media/music/songs/reverently-and-meekly-now?lang=eng"
+          middle="He Died! The Great Redeemer Died"
+          right="192"
+          link="https://www.churchofjesuschrist.org/media/music/songs/he-died-the-great-redeemer-died?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -74,18 +74,17 @@ export default function Page() {
 
         <LineItem
           left="Special Musical Number"
-          middle="Go Forth With Faith"
-          right="263"
-          link="https://www.churchofjesuschrist.org/media/music/songs/go-forth-with-faith?lang=eng"
+          middle="When I Am Baptized"
+          right="Jaxon Kent, accompanied by Brandon, Logan, and Brixton"
         />
 
         <LineItem left="Speaker" right="Kim Huffaker" />
 
         <LineItem
           left="Closing Hymn"
-          middle="It Is Well With My Soul"
-          right="1003"
-          link="https://www.churchofjesuschrist.org/media/music/songs/it-is-well-with-my-soul?lang=eng"
+          middle="A Child's Prayer"
+          right="12 Childres Songbook"
+          link="https://www.churchofjesuschrist.org/media/music/songs/a-childs-prayer?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
