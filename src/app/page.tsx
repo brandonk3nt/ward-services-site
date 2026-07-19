@@ -72,8 +72,8 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Mason Gray" />
-        <LineItem left="Speaker" right="Kemp Spencer" />
+        <LineItem left="Speaker" right="Kimball Williams" />
+        <LineItem left="Speaker" right="Max Shumway" />
 
         <LineItem
           left="Special Musical Number"
@@ -81,7 +81,7 @@ export default function Page() {
           right="Jaxon Kent, accompanied by Brandon, Logan, and Brixton"
         />
 
-        <LineItem left="Speaker" right="Kim Huffaker" />
+        <LineItem left="Speaker" right="Derek Sloan" />
 
         <LineItem
           left="Closing Hymn"
