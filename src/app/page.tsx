@@ -23,6 +23,9 @@ export default function Page() {
               Mission Plan, July Operative Practice - "Fast and pray for missionaries worldwide, with a special focus on Elder Smart and Elder Harper who are serving in our ward, and for ourselves as member missionaries."
             </li>
             <li className="pt-1">
+              The Ward Pool Party is on August 29 from 4-6 PM at the Brimhall Aquatic Center. Bring a dessert or snack to share.
+            </li>
+            <li className="pt-1">
               Missionary Meal Signup. (
               <a
                 href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
