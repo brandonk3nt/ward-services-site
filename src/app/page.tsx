@@ -28,7 +28,7 @@ export default function Page() {
             <li className="pt-1">
               Missionary Meal Signup. (
               <a
-                href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-57457318-missionary#/"
+                href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-64697089-missionary#/"
                 className="text-sky-600 hover:text-sky-800 underline break-words"
                 target="_blank"
                 rel="noopener noreferrer"
