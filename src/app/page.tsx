@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Julie Clement" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -51,9 +51,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Hark All Ye Nations"
-          right="264"
-          link="https://www.churchofjesuschrist.org/media/music/songs/hark-all-ye-nations?lang=eng"
+          middle="Rock of Ages"
+          right="111"
+          link="https://www.churchofjesuschrist.org/media/music/songs/rock-of-ages?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -61,9 +61,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="He Died! The Great Redeemer Died"
-          right="192"
-          link="https://www.churchofjesuschrist.org/media/music/songs/he-died-the-great-redeemer-died?lang=eng"
+          middle="There Is a Green Hill Far Away"
+          right="194"
+          link="https://www.churchofjesuschrist.org/media/music/songs/there-is-a-green-hill-far-away?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -72,22 +72,23 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Kimball Williams" />
-        <LineItem left="Speaker" right="Max Shumway" />
+        <LineItem left="Speaker" right="Trevor Hardy" />
+        <LineItem left="Speaker" right="Scott Wininger" />
 
         <LineItem
           left="Special Musical Number"
-          middle="When I Am Baptized"
-          right="Jaxon Kent, accompanied by Brandon, Logan, and Brixton"
+          middle="Praise to the Man"
+          right="27"
+          link="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-man?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Derek Sloan" />
+        <LineItem left="Speaker" right="Bennett Andersen" />
 
         <LineItem
           left="Closing Hymn"
-          middle="A Child's Prayer"
-          right="12 Childres Songbook"
-          link="https://www.churchofjesuschrist.org/media/music/songs/a-childs-prayer?lang=eng"
+          middle="Sweet is the Work"
+          right="147"
+          link="https://www.churchofjesuschrist.org/media/music/songs/sweet-is-the-work?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
