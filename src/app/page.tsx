@@ -82,7 +82,9 @@ export default function Page() {
           link="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-man?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Bennett Andersen" />
+        <LineItem left="Speaker" right="Joe Capps" />
+<LineItem left="Speaker" right="Will Shoemaker" />
+<LineItem left="Speaker" right="Bishop Shumway" />
 
         <LineItem
           left="Closing Hymn"
