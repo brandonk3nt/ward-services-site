@@ -10,9 +10,9 @@ export default function Page() {
       <ServicesHeader heroImage="/img/bethseda.jpeg" />
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Lisa Brandt" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -20,7 +20,10 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Mission Plan, July Operative Practice - "Fast and pray for missionaries worldwide, with a special focus on Elder Smart and Elder Harper who are serving in our ward, and for ourselves as member missionaries."
+              Mission Plan, August Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/or At Missionary Meal Times."
+            </li>
+            <li className="pt-1">
+              Mesa250 9/11 commemoration on September 12. Donations of books and clothing (infant through adult) are being collected. There are collection boxes at the Cornia, Speakman, and Hakes homes.
             </li>
             <li className="pt-1">
               The Ward Pool Party is on August 29 from 4-6 PM at the Brimhall Aquatic Center. Bring a dessert or snack to share.
@@ -51,9 +54,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Rock of Ages"
-          right="111"
-          link="https://www.churchofjesuschrist.org/media/music/songs/rock-of-ages?lang=eng"
+          middle="Come, O Thou King of Kings"
+          right="59"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-o-thou-king-of-kings?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -61,17 +64,16 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="There Is a Green Hill Far Away"
-          right="194"
-          link="https://www.churchofjesuschrist.org/media/music/songs/there-is-a-green-hill-far-away?lang=eng"
+          middle="How Great the Wisdom and the Love"
+          right="195"
+          link="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Trevor Hardy" />
         <LineItem left="Speaker" right="Scott Wininger" />
 
@@ -83,14 +85,13 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Joe Capps" />
-<LineItem left="Speaker" right="Will Shoemaker" />
-<LineItem left="Speaker" right="Bishop Shumway" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Sweet is the Work"
-          right="147"
-          link="https://www.churchofjesuschrist.org/media/music/songs/sweet-is-the-work?lang=eng"
+          middle="Come Follow Me"
+          right="116"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-follow-me?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
