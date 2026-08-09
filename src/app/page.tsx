@@ -20,10 +20,10 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Mission Plan, August Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/o[...]
+              Mission Plan, August Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/or At Missionary Meal Times."
             </li>
             <li className="pt-1">
-              Mesa250 9/11 commemoration on September 12. Donations of books and clothing (infant through adult) are being collected. There are collection boxes at the Cornia, Speakman, and Hakes [...]
+              Mesa250 9/11 commemoration on September 12. Donations of books and clothing (infant through adult) are being collected. There are collection boxes at the Cornia, Speakman, and Hakes homes.
             </li>
             <li className="pt-1">
               The Ward Pool Party is on August 29 from 4-6 PM at the Brimhall Aquatic Center. Bring a dessert or snack to share.
@@ -54,9 +54,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, O Thou King of Kings"
+          middle="The Spirit of God"
           right="2"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-o-thou-king-of-kings?lang=eng"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-spirit-of-god?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -64,33 +64,32 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="How Great the Wisdom and the Love"
-          right="195"
-          link="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng"
+          middle="Jesus, Once of Humble Birth"
+          right="196"
+          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-once-of-humble-birth?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
 
-        <LineItem left="Speaker" right="Trevor Hardy" />
-        <LineItem left="Speaker" right="Scott Wininger" />
+        <LineItem left="Speaker" right="Fenix Huffaker" />
+        <LineItem left="Speaker" right="Landon Nicoll" />
 
         <LineItem
           left="Special Musical Number"
-          middle="Praise to the Man"
-          right="27"
-          link="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-man?lang=eng"
+          middle="My Heavenly Father Loves Me"
+          right="Jayna's friends"
+          link="https://www.churchofjesuschrist.org/media/music/songs/my-heavenly-father-loves-me?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Joe Capps" />
+        <LineItem left="Speaker" right="Jayna Hulse" />
         
 
         <LineItem
           left="Closing Hymn"
-          middle="Come Follow Me"
-          right="116"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-follow-me?lang=eng"
+          middle="I Need Thee Every Hour"
+          right="98"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-need-thee-every-hour?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
