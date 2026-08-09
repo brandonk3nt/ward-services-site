@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Lisa Brandt" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -55,7 +55,7 @@ export default function Page() {
         <LineItem
           left="Opening Hymn"
           middle="Come, O Thou King of Kings"
-          right="59"
+          right="2"
           link="https://www.churchofjesuschrist.org/media/music/songs/come-o-thou-king-of-kings?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
@@ -73,7 +73,6 @@ export default function Page() {
 
         <LineItemBold middle="Bearing of Testimonies" />
 
-        {/*
         <LineItem left="Speaker" right="Trevor Hardy" />
         <LineItem left="Speaker" right="Scott Wininger" />
 
@@ -85,7 +84,7 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Joe Capps" />
-        */}
+        
 
         <LineItem
           left="Closing Hymn"
