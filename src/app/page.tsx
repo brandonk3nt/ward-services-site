@@ -54,9 +54,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, O Thou King of Kings"
+          middle="The Spirit of God"
           right="2"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-o-thou-king-of-kings?lang=eng"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-spirit-of-god?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -64,9 +64,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="How Great the Wisdom and the Love"
-          right="195"
-          link="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng"
+          middle="Jesus, Once of Humble Birth"
+          right="196"
+          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-once-of-humble-birth?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -78,9 +78,9 @@ export default function Page() {
 
         <LineItem
           left="Special Musical Number"
-          middle="Praise to the Man"
-          right="27"
-          link="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-man?lang=eng"
+          middle="My Heavenly Father Loves Me"
+          right="Jayna's friends"
+          link="https://www.churchofjesuschrist.org/media/music/songs/my-heavenly-father-loves-me?lang=eng"
         />
 
         <LineItem left="Speaker" right="Joe Capps" />
@@ -88,9 +88,9 @@ export default function Page() {
 
         <LineItem
           left="Closing Hymn"
-          middle="Come Follow Me"
-          right="116"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-follow-me?lang=eng"
+          middle="I Need Thee Every Hour"
+          right="98"
+          link="https://www.churchofjesuschrist.org/media/music/songs/i-need-thee-every-hour?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
