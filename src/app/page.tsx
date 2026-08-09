@@ -71,10 +71,9 @@ export default function Page() {
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
 
-        <LineItem left="Speaker" right="Trevor Hardy" />
-        <LineItem left="Speaker" right="Scott Wininger" />
+        <LineItem left="Speaker" right="Fenix Huffaker" />
+        <LineItem left="Speaker" right="Landon Nicoll" />
 
         <LineItem
           left="Special Musical Number"
@@ -83,7 +82,7 @@ export default function Page() {
           link="https://www.churchofjesuschrist.org/media/music/songs/my-heavenly-father-loves-me?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Joe Capps" />
+        <LineItem left="Speaker" right="Jayna Hulse" />
         
 
         <LineItem
