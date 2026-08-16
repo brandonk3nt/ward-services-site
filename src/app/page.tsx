@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -54,9 +54,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="The Spirit of God"
-          right="2"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-spirit-of-god?lang=eng"
+          middle="Improve the Shining Moments"
+          right="226"
+          link="https://www.churchofjesuschrist.org/media/music/songs/improve-the-shining-moments?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -64,32 +64,30 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Jesus, Once of Humble Birth"
-          right="196"
-          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-once-of-humble-birth?lang=eng"
+          middle="As Now We Take the Sacrament"
+          right="169"
+          link="https://www.churchofjesuschrist.org/media/music/songs/as-now-we-take-the-sacrament?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
 
-        <LineItem left="Speaker" right="Fenix Huffaker" />
-        <LineItem left="Speaker" right="Landon Nicoll" />
+        <LineItem left="Speaker" right="Bryan Johnson" />
 
         <LineItem
           left="Special Musical Number"
-          middle="My Heavenly Father Loves Me"
-          right="Jayna's friends"
-          link="https://www.churchofjesuschrist.org/media/music/songs/my-heavenly-father-loves-me?lang=eng"
+          middle="Redeemer of Israel"
+          right="6"
+          link="https://www.churchofjesuschrist.org/media/music/songs/redeemer-of-israel?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Jayna Hulse" />
-        
+        <LineItem left="Speaker" right="Rigdon Thomas" />
 
         <LineItem
           left="Closing Hymn"
-          middle="I Need Thee Every Hour"
-          right="98"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-need-thee-every-hour?lang=eng"
+          middle="Come Unto Jesus"
+          right="117"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-unto-jesus?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
