@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Elizabeth Kasl" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -54,9 +54,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Improve the Shining Moments"
-          right="226"
-          link="https://www.churchofjesuschrist.org/media/music/songs/improve-the-shining-moments?lang=eng"
+          middle="God Speed the Right"
+          right="106"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-speed-the-right?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -64,30 +64,30 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="As Now We Take the Sacrament"
-          right="169"
-          link="https://www.churchofjesuschrist.org/media/music/songs/as-now-we-take-the-sacrament?lang=eng"
+          middle="God, Our Father, Hear Us Pray"
+          right="170"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-our-fathers-hear-us-pray?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-
-        <LineItem left="Speaker" right="Bryan Johnson" />
+        <LineItem left="Speaker" right="Scarlet Hoover" />
+        <LineItem left="Speaker" right="Elder Isakaen" />
 
         <LineItem
           left="Special Musical Number"
-          middle="Redeemer of Israel"
-          right="6"
-          link="https://www.churchofjesuschrist.org/media/music/songs/redeemer-of-israel?lang=eng"
+          middle="Have I Done Any Good?"
+          right="223"
+          link="https://www.churchofjesuschrist.org/media/music/songs/have-i-done-any-good?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Rigdon Thomas" />
+        <LineItem left="Speaker" right="Elder Harper" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Come Unto Jesus"
-          right="117"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-unto-jesus?lang=eng"
+          middle="The Lord is my Shepherd"
+          right="109"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-lord-is-my-shepherd?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
