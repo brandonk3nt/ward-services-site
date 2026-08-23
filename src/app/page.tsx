@@ -32,6 +32,9 @@ export default function Page() {
               Ward Choir is right after church from 12:45-1:30. The choir is singing in ward conference on September 13.
             </li>
             <li className="pt-1">
+              Daddy-Daughter campout will be on September 18-19.
+            </li>
+            <li className="pt-1">
               Missionary Meal Signup. (
               <a
                 href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-64697089-missionary#/"
@@ -79,9 +82,9 @@ export default function Page() {
 
         <LineItem
           left="Special Musical Number"
-          middle="Have I Done Any Good?"
-          right="223"
-          link="https://www.churchofjesuschrist.org/media/music/songs/have-i-done-any-good?lang=eng"
+          middle="Choose the Right"
+          right="239"
+          link="https://www.churchofjesuschrist.org/media/music/songs/choose-the-right?lang=eng"
         />
 
         <LineItem left="Speaker" right="Elder Harper" />
