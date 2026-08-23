@@ -29,6 +29,9 @@ export default function Page() {
               The Ward Pool Party is on August 29 from 4-6 PM at the Brimhall Aquatic Center. Bring a dessert or snack to share.
             </li>
             <li className="pt-1">
+              Ward Choir is right after church from 12:45-1:30. The choir is singing in ward conference on September 13.
+            </li>
+            <li className="pt-1">
               Missionary Meal Signup. (
               <a
                 href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-64697089-missionary#/"
