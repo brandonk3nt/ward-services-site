@@ -11,7 +11,7 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Organist" right="Kristen Reynolds" />
         <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
@@ -66,7 +66,7 @@ export default function Page() {
           left="Sacrament Hymn"
           middle="God, Our Father, Hear Us Pray"
           right="170"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-our-fathers-hear-us-pray?lang=eng"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-our-father-hear-us-pray?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -86,7 +86,7 @@ export default function Page() {
         <LineItem
           left="Closing Hymn"
           middle="The Lord is my Shepherd"
-          right="109"
+          right="108"
           link="https://www.churchofjesuschrist.org/media/music/songs/the-lord-is-my-shepherd?lang=eng"
         />
 
