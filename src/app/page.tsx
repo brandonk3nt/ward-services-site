@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Kristen Reynolds" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Lisa Brandt" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -24,9 +24,6 @@ export default function Page() {
             </li>
             <li className="pt-1">
               Mesa250 9/11 commemoration on September 12. Donations of books and clothing (infant through adult) are being collected. There are collection boxes at the Cornia, Speakman, and Hakes homes.
-            </li>
-            <li className="pt-1">
-              The Ward Pool Party is on August 29 from 4-6 PM at the Brimhall Aquatic Center. Bring a dessert or snack to share.
             </li>
             <li className="pt-1">
               Ward Choir is right after church from 12:45-1:30. The choir is singing in ward conference on September 13.
@@ -60,9 +57,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="God Speed the Right"
-          right="106"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-speed-the-right?lang=eng"
+          middle="True to the Faith"
+          right="254"
+          link="https://www.churchofjesuschrist.org/media/music/songs/true-to-the-faith?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -70,30 +67,30 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="God, Our Father, Hear Us Pray"
-          right="170"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-our-father-hear-us-pray?lang=eng"
+          middle="With Humble Heart"
+          right="171"
+          link="https://www.churchofjesuschrist.org/media/music/songs/with-humble-heart?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItem left="Speaker" right="Scarlet Hoover" />
-        <LineItem left="Speaker" right="Elder Isakaen" />
+        <LineItem left="Speaker" right="Dolly Huffaker" />
+        <LineItem left="Speaker" right="Katy Flaherty" />
 
         <LineItem
           left="Special Musical Number"
-          middle="Choose the Right"
-          right="239"
-          link="https://www.churchofjesuschrist.org/media/music/songs/choose-the-right?lang=eng"
+          middle="Redeemer of Israel"
+          right="6"
+          link="https://www.churchofjesuschrist.org/media/music/songs/redemptor-israel?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Elder Harper" />
+        <LineItem left="Speaker" right="Jeremy Hoover" />
 
         <LineItem
           left="Closing Hymn"
-          middle="The Lord is my Shepherd"
-          right="108"
-          link="https://www.churchofjesuschrist.org/media/music/songs/the-lord-is-my-shepherd?lang=eng"
+          middle="Carry On"
+          right="255"
+          link="https://www.churchofjesuschrist.org/media/music/songs/carry-on?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
