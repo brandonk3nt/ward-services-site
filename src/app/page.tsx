@@ -78,10 +78,10 @@ export default function Page() {
         <LineItem left="Speaker" right="Katy Flaherty" />
 
         <LineItem
-          left="Special Musical Number"
+          left="Intermediate Hymn"
           middle="Redeemer of Israel"
           right="6"
-          link="https://www.churchofjesuschrist.org/media/music/songs/redemptor-israel?lang=eng"
+          link="https://www.churchofjesuschrist.org/media/music/songs/redeemer-of-israel?lang=eng"
         />
 
         <LineItem left="Speaker" right="Jeremy Hoover" />
