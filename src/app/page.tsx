@@ -12,7 +12,7 @@ export default function Page() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
         <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Lisa Brandt" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
-              Mission Plan, August Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/or At Missionary Meal Times."
+              Mission Plan, September Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/or At Missionary Meal Times."
             </li>
             <li className="pt-1">
               Mesa250 9/11 commemoration on September 12. Donations of books and clothing (infant through adult) are being collected. There are collection boxes at the Cornia, Speakman, and Hakes homes.
@@ -41,7 +41,7 @@ export default function Page() {
               >
                 Sign up here
               </a>
-              )
+              ). From the 15th through the 20th this month, our ward has also been invited to provide meals for four Spanish-speaking Sister missionaries. The SignUp Genius has been updated to reflect these additional opportunities, with meal slots available for either the two Elders or the four Sisters. Please note that, per recent direction from the Mission Presidency, Elders and Sisters will no longer share meals together. Families wishing to serve all six missionaries may do so by providing a meal for one group to take with them.
             </li>
             <li className="pt-1">
               Bishop&apos;s Hang Out: Cereal Sunday. All priests and young women
@@ -57,9 +57,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="True to the Faith"
-          right="254"
-          link="https://www.churchofjesuschrist.org/media/music/songs/true-to-the-faith?lang=eng"
+          middle="Secret Prayer"
+          right="144"
+          link="https://www.churchofjesuschrist.org/media/music/songs/secret-prayer?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -67,13 +67,16 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="With Humble Heart"
-          right="171"
-          link="https://www.churchofjesuschrist.org/media/music/songs/with-humble-heart?lang=eng"
+          middle="In Humility, Our Savior"
+          right="172"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
+        <LineItemBold middle="Bearing of Testimonies" />
+
+        {/*
         <LineItem left="Speaker" right="Dolly Huffaker" />
         <LineItem left="Speaker" right="Katy Flaherty" />
 
@@ -85,12 +88,13 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Jeremy Hoover" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Carry On"
-          right="255"
-          link="https://www.churchofjesuschrist.org/media/music/songs/carry-on?lang=eng"
+          middle="Where Can I Turn for Peace?"
+          right="129"
+          link="https://www.churchofjesuschrist.org/media/music/songs/where-can-i-turn-for-peace?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
