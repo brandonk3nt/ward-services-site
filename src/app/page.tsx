@@ -32,6 +32,18 @@ export default function Page() {
               Daddy-Daughter campout will be on September 18-19.
             </li>
             <li className="pt-1">
+              Tithing Declaration will begin on September 13th. (
+              <a
+                href="https://www.signupgenius.com/go/10C0F4EAEA82AA2FBC43-65636091-2026"
+                className="text-sky-600 hover:text-sky-800 underline break-words"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign up here
+              </a>
+              )
+            </li>
+            <li className="pt-1">
               Missionary Meal Signup. (
               <a
                 href="https://www.signupgenius.com/go/10C0F4FADAE2DA7F5CE9-64697089-missionary#/"
