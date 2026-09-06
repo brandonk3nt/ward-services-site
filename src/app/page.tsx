@@ -10,7 +10,7 @@ export default function Page() {
       <ServicesHeader heroImage="/img/bethseda.jpeg" />
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Conducting" right="Joe Capps" />
         <LineItemLeadership left="Organist" right="Chris Cooley" />
         <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
