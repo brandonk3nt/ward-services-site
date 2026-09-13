@@ -9,8 +9,8 @@ export default function Page() {
     <div className="w-full h-full">
       <ServicesHeader heroImage="/img/bethseda.jpeg" />
       <div id="services" className="mx-2">
-        <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Joe Capps" />
+        <LineItemLeadership left="Presiding" right="President Sharp" />
+        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
         <LineItemLeadership left="Organist" right="Melody Williams" />
         <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
