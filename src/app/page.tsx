@@ -23,9 +23,6 @@ export default function Page() {
               Mission Plan, September Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/or At Missionary Meal Times."
             </li>
             <li className="pt-1">
-              Mesa250 9/11 commemoration on September 12. Donations of books and clothing (infant through adult) are being collected. There are collection boxes at the Cornia, Speakman, and Hakes homes.
-            </li>
-            <li className="pt-1">
               Ward Choir is right after church from 12:45-1:30. The choir is singing in ward conference on September 13.
             </li>
             <li className="pt-1">
@@ -69,9 +66,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Secret Prayer"
-          right="144"
-          link="https://www.churchofjesuschrist.org/media/music/songs/secret-prayer?lang=eng"
+          middle="Count Your Blessings"
+          right="241"
+          link="https://www.churchofjesuschrist.org/media/music/songs/count-your-blessings?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -79,34 +76,32 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Humility, Our Savior"
-          right="172"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
+          middle="While of These Emblems We Partake"
+          right="174"
+          link="https://www.churchofjesuschrist.org/media/music/songs/while-of-these-emblems-we-partake-aeolian?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Dolly Huffaker" />
-        <LineItem left="Speaker" right="Katy Flaherty" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Bishop Shumway" />
 
         <LineItem
-          left="Intermediate Hymn"
-          middle="Redeemer of Israel"
-          right="6"
-          link="https://www.churchofjesuschrist.org/media/music/songs/redeemer-of-israel?lang=eng"
+          left="Special Musical Number"
+          middle="Risen"
+          right="Choir"
         />
 
-        <LineItem left="Speaker" right="Jeremy Hoover" />
-        */}
+        <LineItem left="Speaker" right="President Sharp" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Where Can I Turn for Peace?"
-          right="129"
-          link="https://www.churchofjesuschrist.org/media/music/songs/where-can-i-turn-for-peace?lang=eng"
+          middle="Come, Come, Ye Saints"
+          right="30"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-come-ye-saints?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
