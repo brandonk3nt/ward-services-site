@@ -9,9 +9,9 @@ export default function Page() {
     <div className="w-full h-full">
       <ServicesHeader heroImage="/img/bethseda.jpeg" />
       <div id="services" className="mx-2">
-        <LineItemLeadership left="Presiding" right="President Sharp" />
-        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Presiding" right="Bishop Shumway" />
+        <LineItemLeadership left="Conducting" right="Joe Capps" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
         <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
@@ -23,13 +23,10 @@ export default function Page() {
               Mission Plan, September Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/or At Missionary Meal Times."
             </li>
             <li className="pt-1">
-              Ward Choir is right after church from 12:45-1:30. The choir is singing in ward conference on September 13.
+              No ward choir today.
             </li>
             <li className="pt-1">
-              Daddy-Daughter campout will be on September 18-19.
-            </li>
-            <li className="pt-1">
-              Tithing Declaration will begin on September 13th. (
+              Tithing Declaration is in progress. (
               <a
                 href="https://www.signupgenius.com/go/10C0F4EAEA82AA2FBC43-65636091-2026"
                 className="text-sky-600 hover:text-sky-800 underline break-words"
@@ -50,7 +47,7 @@ export default function Page() {
               >
                 Sign up here
               </a>
-              ). From the 15th through the 20th this month, our ward has also been invited to provide meals for four Spanish-speaking Sister missionaries. The SignUp Genius has been updated to reflect these additional opportunities, with meal slots available for either the two Elders or the four Sisters. Please note that, per recent direction from the Mission Presidency, Elders and Sisters will no longer share meals together. Families wishing to serve all six missionaries may do so by providing a meal for one group to take with them.
+              ).
             </li>
             <li className="pt-1">
               Bishop&apos;s Hang Out: Cereal Sunday. All priests and young women
@@ -66,9 +63,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Count Your Blessings"
-          right="241"
-          link="https://www.churchofjesuschrist.org/media/music/songs/count-your-blessings?lang=eng"
+          middle="Come Come, Ye Saints"
+          right="30"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-come-ye-saints?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -76,9 +73,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="While of These Emblems We Partake"
-          right="174"
-          link="https://www.churchofjesuschrist.org/media/music/songs/while-of-these-emblems-we-partake-aeolian?lang=eng"
+          middle="O God, the Eternal Father"
+          right="175"
+          link="https://www.churchofjesuschrist.org/media/music/songs/o-god-the-eternal-father?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -87,21 +84,22 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Bishop Shumway" />
+        <LineItem left="Speaker" right="Lucy Hulse" />
+        <LineItem left="Speaker" right="Hyrum Speakman" />
 
         <LineItem
           left="Special Musical Number"
-          middle="Risen"
-          right="Choir"
+          middle="Come as You Are"
+          right="Speakman Family"
         />
 
-        <LineItem left="Speaker" right="President Sharp" />
+        <LineItem left="Speaker" right="Mark Fast" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Come, Come, Ye Saints"
-          right="30"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-come-ye-saints?lang=eng"
+          middle="I'll Go where You Want Me to Go"
+          right="270"
+          link="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
