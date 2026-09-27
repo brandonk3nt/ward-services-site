@@ -58,6 +58,9 @@ export default function Page() {
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 3pm in the Relief Society room.
             </li>
+            <li className="pt-1">
+              Single Adult Musical Fireside tonight, September 27, and 7 PM at 4640 E Holmes Ave.
+            </li>
           </ol>
         </div>
 
