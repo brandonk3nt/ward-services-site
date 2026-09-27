@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Joe Capps" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -63,9 +63,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come Come, Ye Saints"
-          right="30"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-come-ye-saints?lang=eng"
+          middle="Hark All Ye Nations"
+          right="264"
+          link="https://www.churchofjesuschrist.org/media/music/songs/hark-all ye-nations?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -73,9 +73,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="O God, the Eternal Father"
-          right="175"
-          link="https://www.churchofjesuschrist.org/media/music/songs/o-god-the-eternal-father?lang=eng"
+          middle="Tis Sweet to Sing the Matchless Love"
+          right="176"
+          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -84,22 +84,23 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Lucy Hulse" />
-        <LineItem left="Speaker" right="Hyrum Speakman" />
+        <LineItem left="Speaker" right="Rachel Cornia" />
+        <LineItem left="Speaker" right="Dillon Grenko" />
 
         <LineItem
-          left="Special Musical Number"
-          middle="Come as You Are"
-          right="Speakman Family"
+          left="Intermediate Hymn"
+          middle="All Creatures of Our God and King"
+          right="62"
+          link="https://www.churchofjesuschrist.org/media/music/songs/all-creatures-of-our-god-and-king?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Mark Fast" />
+        <LineItem left="Speaker" right="Kiana Spencer" />
 
         <LineItem
           left="Closing Hymn"
-          middle="I'll Go where You Want Me to Go"
-          right="270"
-          link="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng"
+          middle="Press Forward Saints"
+          right="81"
+          link="https://www.churchofjesuschrist.org/media/music/songs/press-forward-saints?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
