@@ -65,7 +65,7 @@ export default function Page() {
           left="Opening Hymn"
           middle="Hark All Ye Nations"
           right="264"
-          link="https://www.churchofjesuschrist.org/media/music/songs/hark-all ye-nations?lang=eng"
+          link="https://www.churchofjesuschrist.org/media/music/songs/hark-all-ye-nations?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -75,7 +75,7 @@ export default function Page() {
           left="Sacrament Hymn"
           middle="Tis Sweet to Sing the Matchless Love"
           right="176"
-          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love?lang=eng"
+          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love-meredith?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
