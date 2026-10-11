@@ -10,9 +10,9 @@ export default function Page() {
       <ServicesHeader heroImage="/img/bethseda.jpeg" />
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Joe Capps" />
+        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
         <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Julie Clement" />
+        <LineItemLeadership left="Chorister" right="Lisa Brandt" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -21,9 +21,6 @@ export default function Page() {
           <ol className="list-decimal ml-5 sticky">
             <li className="pt-1">
               Mission Plan, September Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/or At Missionary Meal Times."
-            </li>
-            <li className="pt-1">
-              No ward choir today.
             </li>
             <li className="pt-1">
               Tithing Declaration is in progress. (
@@ -58,17 +55,14 @@ export default function Page() {
               Mission and Life Skills Prep for all Juniors and Seniors is held
               every 2nd and 4th Sunday at 3pm in the Relief Society room.
             </li>
-            <li className="pt-1">
-              Single Adult Musical Fireside tonight, September 27, and 7 PM at 4640 E Holmes Ave.
-            </li>
           </ol>
         </div>
 
         <LineItem
           left="Opening Hymn"
-          middle="Hark All Ye Nations"
-          right="264"
-          link="https://www.churchofjesuschrist.org/media/music/songs/hark-all-ye-nations?lang=eng"
+          middle="We Thank Thee, O God, for a Prophet"
+          right="19"
+          link="https://www.churchofjesuschrist.org/media/music/songs/we-thank-thee-o-god-for-a-prophet?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -76,17 +70,16 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Tis Sweet to Sing the Matchless Love"
-          right="176"
-          link="https://www.churchofjesuschrist.org/media/music/songs/tis-sweet-to-sing-the-matchless-love-meredith?lang=eng"
+          middle="Jesus of Nazareth, Savior and King"
+          right="181"
+          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-of-nazareth-savior-and-king?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
         <LineItemBold middle="Bearing of Testimonies" />
-        */}
 
+        {/*
         <LineItem left="Speaker" right="Rachel Cornia" />
         <LineItem left="Speaker" right="Dillon Grenko" />
 
@@ -98,12 +91,13 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Kiana Spencer" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Press Forward Saints"
-          right="81"
-          link="https://www.churchofjesuschrist.org/media/music/songs/press-forward-saints?lang=eng"
+          middle="Abide with Me!"
+          right="166"
+          link="https://www.churchofjesuschrist.org/media/music/songs/abide-with-me?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
