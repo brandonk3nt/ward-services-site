@@ -12,7 +12,7 @@ export default function Page() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
         <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Lisa Brandt" />
+        <LineItemLeadership left="Chorister" right="Cindy Fast" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -60,9 +60,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="We Thank Thee, O God, for a Prophet"
-          right="19"
-          link="https://www.churchofjesuschrist.org/media/music/songs/we-thank-thee-o-god-for-a-prophet?lang=eng"
+          middle="Come, Rejoice"
+          right="9"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-rejoice?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -70,34 +70,34 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Jesus of Nazareth, Savior and King"
-          right="181"
-          link="https://www.churchofjesuschrist.org/media/music/songs/jesus-of-nazareth-savior-and-king?lang=eng"
+          middle="Father in Heaven, We Do Believe"
+          right="180"
+          link="https://www.churchofjesuschrist.org/media/music/songs/father-in-heaven-we-do-believe?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="Rachel Cornia" />
-        <LineItem left="Speaker" right="Dillon Grenko" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Keegan Flake" />
+        <LineItem left="Speaker" right="Brooke Wooley" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="All Creatures of Our God and King"
-          right="62"
-          link="https://www.churchofjesuschrist.org/media/music/songs/all-creatures-of-our-god-and-king?lang=eng"
+          middle="Today While the Sun Shines"
+          right="229"
+          link="https://www.churchofjesuschrist.org/media/music/songs/today-while-the-sun-shines?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Kiana Spencer" />
-        */}
+        <LineItem left="Speaker" right="Spencer Hardy" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Abide with Me!"
-          right="166"
-          link="https://www.churchofjesuschrist.org/media/music/songs/abide-with-me?lang=eng"
+          middle="God Be With You Till We Meet Again"
+          right="152"
+          link="https://www.churchofjesuschrist.org/media/music/songs/god-be-with-you-till-we-meet-again?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
