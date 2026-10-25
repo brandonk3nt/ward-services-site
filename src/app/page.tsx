@@ -11,14 +11,17 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Cindy Fast" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
+            <li className="pt-1">
+              Primary Program Practice will be held on November 14, 2026 from 9:00-10:30 am in the chapel.
+            </li>
             <li className="pt-1">
               Mission Plan, October Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/or At Missionary Meal Times."
             </li>
@@ -60,9 +63,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, Rejoice"
-          right="9"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-rejoice?lang=eng"
+          middle="Battle Hymn of the Republic"
+          right="60"
+          link="https://www.churchofjesuschrist.org/media/music/songs/battle-hymn-of-the-republic?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -70,9 +73,9 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Father in Heaven, We Do Believe"
-          right="180"
-          link="https://www.churchofjesuschrist.org/media/music/songs/father-in-heaven-we-do-believe?lang=eng"
+          middle="O Lord of Hosts"
+          right="178"
+          link="https://www.churchofjesuschrist.org/media/music/songs/o-lord-of-hosts?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -81,23 +84,23 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
-        <LineItem left="Speaker" right="Keegan Flake" />
-        <LineItem left="Speaker" right="Brooke Wooley" />
+        <LineItem left="Speaker" right="McKenzie Shoemaker" />
+        <LineItem left="Speaker" right="Caden Clifford" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Today While the Sun Shines"
-          right="229"
-          link="https://www.churchofjesuschrist.org/media/music/songs/today-while-the-sun-shines?lang=eng"
+          middle="Let Us Oft Speak Kind Words"
+          right="232"
+          link="https://www.churchofjesuschrist.org/media/music/songs/let-us-oft-speak-kind-words?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Spencer Hardy" />
+        <LineItem left="Speaker" right="MaryAnn Kaberry" />
 
         <LineItem
           left="Closing Hymn"
-          middle="God Be With You Till We Meet Again"
-          right="152"
-          link="https://www.churchofjesuschrist.org/media/music/songs/god-be-with-you-till-we-meet-again?lang=eng"
+          middle="When I Am Baptized"
+          right="1054"
+          link="https://www.churchofjesuschrist.org/media/music/songs/when-i-am-baptized?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
