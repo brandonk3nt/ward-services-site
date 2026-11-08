@@ -78,7 +78,7 @@ export default function Page() {
           left="Intermediate Hymn"
           middle="Let the Holy Spirit Guide"
           right="143"
-          link="https://www.churchofjesuschrist.org/media/music/songs/let-the-holy-spirit-guide?lang=eng"
+          link="https://www.churchofjesuschrist.org/media/music/songs/let-the-holy-spirit-guide-shaw?lang=eng"
         />
 
         <LineItem left="Speaker" right="Nicholas Wallace" />
