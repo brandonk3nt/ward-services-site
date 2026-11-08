@@ -10,8 +10,8 @@ export default function Page() {
       <ServicesHeader heroImage="/img/bethseda.jpeg" />
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
-        <LineItemLeadership left="Conducting" right="Bishop Shumway" />
-        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Conducting" right="Will Shoemaker" />
+        <LineItemLeadership left="Organist" right="Melody Williams" />
         <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
@@ -24,18 +24,6 @@ export default function Page() {
             </li>
             <li className="pt-1">
               Love Share Invite, November Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/or At Missionary Meal Times."
-            </li>
-            <li className="pt-1">
-              Tithing Declaration is in progress. (
-              <a
-                href="https://www.signupgenius.com/go/10C0F4EAEA82AA2FBC43-65636091-2026"
-                className="text-sky-600 hover:text-sky-800 underline break-words"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sign up here
-              </a>
-              )
             </li>
             <li className="pt-1">
               Missionary Meal Signup. (
@@ -63,9 +51,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Praise to the Lord, the Almighty"
-          right="72"
-          link="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-lord-the-almighty?lang=eng"
+          middle="Glory to God on High"
+          right="67"
+          link="https://www.churchofjesuschrist.org/media/music/songs/glory-to-god-on-high?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -73,34 +61,33 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="We'll Sing All Hail to Jesus' Name"
-          right="182"
-          link="https://www.churchofjesuschrist.org/media/music/songs/well-sing-all-hail-to-jesus-name?lang=eng"
+          middle="In Remembrance of Thy Suffering"
+          right="183"
+          link="https://www.churchofjesuschrist.org/media/music/songs/in-remembrance-of-thy-suffering?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Bearing of Testimonies" />
-
         {/*
-        <LineItem left="Speaker" right="McKenzie Shoemaker" />
-        <LineItem left="Speaker" right="Caden Clifford" />
+        <LineItemBold middle="Bearing of Testimonies" />
+        */}
+
+        <LineItem left="Speaker" right="Sara Shoemaker" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Let Us Oft Speak Kind Words"
-          right="232"
-          link="https://www.churchofjesuschrist.org/media/music/songs/let-us-oft-speak-kind-words?lang=eng"
+          middle="Let the Holy Spirit Guide"
+          right="143"
+          link="https://www.churchofjesuschrist.org/media/music/songs/let-the-holy-spirit-guide?lang=eng"
         />
 
-        <LineItem left="Speaker" right="MaryAnn Kaberry" />
-        */}
+        <LineItem left="Speaker" right="Nicholas Wallace" />
 
         <LineItem
           left="Closing Hymn"
-          middle="I Need Thee Every Hour"
-          right="98"
-          link="https://www.churchofjesuschrist.org/media/music/songs/i-need-thee-every-hour?lang=eng"
+          middle="Amazing Grace"
+          right="1010"
+          link="https://www.churchofjesuschrist.org/media/music/songs/amazing-grace?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
