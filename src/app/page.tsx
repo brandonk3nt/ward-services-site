@@ -72,6 +72,7 @@ export default function Page() {
         <LineItemBold middle="Bearing of Testimonies" />
         */}
 
+        <LineItem left="Speaker" right="Rad Huffaker" />
         <LineItem left="Speaker" right="Sara Shoemaker" />
 
         <LineItem
