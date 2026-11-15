@@ -12,16 +12,13 @@ export default function Page() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
         <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Chorister" right="Julie Clement" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
             <em className="font-semibold text-lg">Announcements</em>
           </div>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              Primary Program Practice will be held on November 14, 2026 from 9:00-10:30 am in the chapel.
-            </li>
             <li className="pt-1">
               Love Share Invite, November Operative Practice - "Arrange to have the missionaries teach a lesson on member missionary work during: Family Home Evenings, Missionary Visits to Members, and/or At Missionary Meal Times."
             </li>
@@ -38,6 +35,9 @@ export default function Page() {
               ). Double check for current food allergies.
             </li>
             <li className="pt-1">
+              Ward Temple Night is on November 24 at the 6:15 pm session.
+            </li>
+            <li className="pt-1">
               Bishop&apos;s Hang Out: Cereal Sunday. All priests and young women
               class 16-18 are invited to the Shumway&apos;s home on the third
               Sunday of each month from 7:00-8:30 pm.
@@ -51,9 +51,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Glory to God on High"
-          right="67"
-          link="https://www.churchofjesuschrist.org/media/music/songs/glory-to-god-on-high?lang=eng"
+          middle="Come, All Ye Saints of Zion"
+          right="38"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-all-ye-saints-of-zion?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -61,17 +61,16 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Remembrance of Thy Suffering"
-          right="183"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-remembrance-of-thy-suffering?lang=eng"
+          middle="Reverently and Meekly Now"
+          right="185"
+          link="https://www.churchofjesuschrist.org/media/music/songs/reverently-and-meekly-now?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        {/*
-        <LineItemBold middle="Bearing of Testimonies" />
-        */}
+        <LineItemBold middle="Primary Program" />
 
+        {/*
         <LineItem left="Speaker" right="Rad Huffaker" />
         <LineItem left="Speaker" right="Sara Shoemaker" />
 
@@ -83,12 +82,13 @@ export default function Page() {
         />
 
         <LineItem left="Speaker" right="Nicholas Wallace" />
+        */}
 
         <LineItem
           left="Closing Hymn"
-          middle="Amazing Grace"
-          right="1010"
-          link="https://www.churchofjesuschrist.org/media/music/songs/amazing-grace?lang=eng"
+          middle="Teach Me To Walk In the Light"
+          right="304"
+          link="https://www.churchofjesuschrist.org/media/music/songs/teach-me-to-walk-in-the-light?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
