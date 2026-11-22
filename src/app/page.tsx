@@ -11,8 +11,8 @@ export default function Page() {
       <div id="services" className="mx-2">
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
-        <LineItemLeadership left="Organist" right="Melody Williams" />
-        <LineItemLeadership left="Chorister" right="Julie Clement" />
+        <LineItemLeadership left="Organist" right="Chris Cooley" />
+        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -51,9 +51,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, All Ye Saints of Zion"
-          right="38"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-all-ye-saints-of-zion?lang=eng"
+          middle="Come, Ye Thankful People"
+          right="94"
+          link="https://www.churchofjesuschrist.org/media/music/songs/come-ye-thankful-people?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -68,27 +68,26 @@ export default function Page() {
 
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Primary Program" />
-
         {/*
-        <LineItem left="Speaker" right="Rad Huffaker" />
-        <LineItem left="Speaker" right="Sara Shoemaker" />
+        <LineItemBold middle="Primary Program" />
+        */}
+
+        <LineItem left="Speaker" right="Dallas Peterson" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="Let the Holy Spirit Guide"
-          right="143"
-          link="https://www.churchofjesuschrist.org/media/music/songs/let-the-holy-spirit-guide-shaw?lang=eng"
+          middle="God's Gracious Love"
+          right="1013"
+          link="https://www.churchofjesuschrist.org/media/music/songs/gods-gracious-love?lang=eng"
         />
 
-        <LineItem left="Speaker" right="Nicholas Wallace" />
-        */}
+        <LineItem left="Speaker" right="Richard Merkley" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Teach Me To Walk In the Light"
-          right="304"
-          link="https://www.churchofjesuschrist.org/media/music/songs/teach-me-to-walk-in-the-light?lang=eng"
+          middle="Because I Have Been Given Much"
+          right="219"
+          link="https://www.churchofjesuschrist.org/media/music/songs/because-i-have-been-given-much?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
