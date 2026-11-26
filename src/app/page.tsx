@@ -12,7 +12,7 @@ export default function Page() {
         <LineItemLeadership left="Presiding" right="Bishop Shumway" />
         <LineItemLeadership left="Conducting" right="Will Shoemaker" />
         <LineItemLeadership left="Organist" right="Chris Cooley" />
-        <LineItemLeadership left="Chorister" right="Laurel Cronin" />
+        <LineItemLeadership left="Chorister" right="Steven Ray" />
 
         <div className="p-8 my-4 rounded bg-sky-100">
           <div className="text-center">
@@ -35,9 +35,6 @@ export default function Page() {
               ). Double check for current food allergies.
             </li>
             <li className="pt-1">
-              Ward Temple Night is on November 24 at the 6:15 pm session.
-            </li>
-            <li className="pt-1">
               Bishop&apos;s Hang Out: Cereal Sunday. All priests and young women
               class 16-18 are invited to the Shumway&apos;s home on the third
               Sunday of each month from 7:00-8:30 pm.
@@ -51,9 +48,9 @@ export default function Page() {
 
         <LineItem
           left="Opening Hymn"
-          middle="Come, Ye Thankful People"
-          right="94"
-          link="https://www.churchofjesuschrist.org/media/music/songs/come-ye-thankful-people?lang=eng"
+          middle="Hark the Herald Angels Sing"
+          right="209"
+          link="https://www.churchofjesuschrist.org/media/music/songs/hark-the-herald-angels-sing?lang=eng"
         />
         <LineItem left="Invocation" right="By Invitation" />
 
@@ -61,33 +58,33 @@ export default function Page() {
 
         <LineItem
           left="Sacrament Hymn"
-          middle="Reverently and Meekly Now"
-          right="185"
-          link="https://www.churchofjesuschrist.org/media/music/songs/reverently-and-meekly-now?lang=eng"
+          middle="Again We Meet Around the Board"
+          right="186"
+          link="https://www.churchofjesuschrist.org/media/music/songs/again-we-meet-around-the-board?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
 
         {/*
-        <LineItemBold middle="Primary Program" />
+        <LineItemBold middle="Bearing of Testimony" />
         */}
 
-        <LineItem left="Speaker" right="Dallas Peterson" />
+        <LineItem left="Speaker" right="" />
+        <LineItem left="Speaker" right="" />
 
         <LineItem
           left="Intermediate Hymn"
-          middle="God's Gracious Love"
-          right="1013"
-          link="https://www.churchofjesuschrist.org/media/music/songs/gods-gracious-love?lang=eng"
+          middle="Cmoe, Thou Fount of Every Blessing"
+          right="Choir"
         />
 
-        <LineItem left="Speaker" right="Richard Merkley" />
+        <LineItem left="Speaker" right="Maggie Clifford" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Because I Have Been Given Much"
-          right="219"
-          link="https://www.churchofjesuschrist.org/media/music/songs/because-i-have-been-given-much?lang=eng"
+          middle="While Shepherds Watched Their Flocks by Night"
+          right="211"
+          link="https://www.churchofjesuschrist.org/media/music/songs/while-shepherds-watched-their-flocks-by-night?lang=eng"
         />
 
         <LineItem left="Benediction" right="By Invitation" />
